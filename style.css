@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+  background-color: #2e2e2e;
+  align-content: center;
+}
+
+.grid {
+  width: 800px;
+  height: 800px;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+div {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Itim', cursive;
+}
+
+.bomb {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  /* background-color: red; */
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.valid {
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  background-color: grey;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.checked {
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#flagsLeft {
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 40px;
+  font-weight: bold;
+  color: orange;
+  font-family: 'Itim', cursive;
+}
+
+#result {
+  position: absolute;
+  top: 9px;
+  left: 230px;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+  font-family: 'Itim', cursive;
+}
+
+.one {
+  color: #e76346;
+}
+
+.two {
+  color: #4199d3;
+}
+
+.three {
+  color: #57da59;
+}
+
+.four{
+  color: #bb41d3;
+}
+
